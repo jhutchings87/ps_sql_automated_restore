@@ -9,11 +9,11 @@ $appSQLBackup = Get-Content -Raw -Path $inventoryfile | ConvertFrom-Json
 
 <#
 
-Written By: Jamie Hutchings - IRM SQL DBA
+Written By: Jamie Hutchings
 Date: 1/19/2021
 Purpose: I wrote this to restore backups from Prod to UAT. 
 You will need to make sure to change the JSON values of the uploaded file. 
-You need to specify the env that you want to refresh in order for this to work using the -bnymDB switch. 
+
 
 
 .PARAMETER bnymDB
@@ -29,13 +29,13 @@ Invoke-BNYMPreProdRefresh -bnymDB MDC will output the following before continuin
 
 
 .EXAMPLE 
-Invoke-BNYMPreProdRefresh -application DCI
+Invoke-PreProdRefresh -application Loopy
 
 
 #>
 
 
-function Invoke-BNYMPreProdRefresh {
+function Invoke-PreProdRefresh {
   [CmdletBinding()]
   param
   (
