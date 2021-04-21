@@ -16,7 +16,7 @@ You will need to make sure to change the JSON values of the uploaded file.
 
 
 
-.PARAMETER bnymDB
+.PARAMETER $application
     This is the preprod env which will be refreshed. 
 
 .NOTES 
