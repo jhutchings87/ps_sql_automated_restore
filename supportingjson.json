@@ -1,0 +1,14 @@
+[
+    {
+        "Application": "changeme",
+		"ProdListenerName": "changeme",
+        "ProdBackupDir": "\\driveletter$\\backup\\changeme",
+        "PreProdDestinationFolder" : "\\driveletter$\\AutomatedRestore",
+		"PreProdListenerName" : "changeme",
+		"LocalRestoreDir" : "\\driveletter$\\AutomatedRestore",
+		"DisableJobs": "DatabaseBackup - USER_DATABASES - LOG"
+  
+	
+]
+
+
