@@ -8,7 +8,7 @@
 		"LocalRestoreDir" : "\\driveletter$\\AutomatedRestore",
 		"DisableJobs": "DatabaseBackup - USER_DATABASES - LOG"
   
-	
+    }
 ]
 
 
